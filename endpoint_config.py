@@ -17,7 +17,7 @@ def generate_agent_config():
     
     xor_key = 0xFF
     
-    # ===== CORRECTION ICI =====
+   
     # XOR seulement le host, PAS le null terminator!
     host_bytes = host.encode('ascii')
     xor_host = [b ^ xor_key for b in host_bytes]
@@ -52,4 +52,5 @@ def generate_agent_config():
         print("\n❌ ERREUR: Null terminator manquant!")
 
 if __name__ == "__main__":
+
     generate_agent_config()
