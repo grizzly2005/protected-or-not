@@ -112,7 +112,7 @@ info	Display loaded payload details
 
 clear	Unload current payload
 
-generate [shellcode	reflective]`
+generate [shellcode	reflective]
 
 help	Show this help
 
