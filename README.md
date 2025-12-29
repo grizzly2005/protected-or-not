@@ -82,12 +82,12 @@ C2> sessions
 
 
 #### 4. Send payload to implant
-C2> run 0
+C2> run SESSION_NUMBER
 
 
 #### 5. Send trigger signal (execute)
-C2> trigger 0
-Command Reference
+C2> trigger SESSION_NUMBER
+
 
 ## Command	Description
 
