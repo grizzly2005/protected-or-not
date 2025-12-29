@@ -68,7 +68,7 @@ python3 --version
 ## Basic Usage
 
 #### 1. Start the C2 server
-python3 c2.py --listen 0.0.0.0:34847
+python3 c2.py --listen IP:PORT
 
 
 #### 2. Load a payload
