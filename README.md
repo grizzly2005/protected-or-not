@@ -98,7 +98,7 @@ upload --base64 <string>	Load base64-encoded payload
 
 upload --hex <string>	Load hex-encoded payload (format: \x90\x90 or 9090)
 
-type [shellcode	reflective
+type [shellcode ; reflective]
 
 sessions	List all active implant sessions
 
@@ -112,7 +112,7 @@ info	Display loaded payload details
 
 clear	Unload current payload
 
-generate [shellcode	reflective]
+generate [shellcode	; reflective]
 
 help	Show this help
 
