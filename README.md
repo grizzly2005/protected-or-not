@@ -93,17 +93,29 @@ C2> trigger SESSION_NUMBER
 
 ```
 upload <file>	Load payload from file (supports .bin, .dll, shellcode)
+
 upload --base64 <string>	Load base64-encoded payload
+
 upload --hex <string>	Load hex-encoded payload (format: \x90\x90 or 9090)
+
 type [shellcode	reflective
+
 sessions	List all active implant sessions
+
 run <session_id>	Send payload + trigger to session
+
 send <session_id>	Send payload only (no trigger)
+
 trigger <session_id>	Send execution trigger only
+
 info	Display loaded payload details
+
 clear	Unload current payload
+
 generate [shellcode	reflective]`
+
 help	Show this help
+
 exit	Quit CLI and stop server
 ```
 
