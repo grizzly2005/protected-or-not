@@ -269,8 +269,8 @@ This repository implements the research detailed in my 3-part LinkedIn series (c
 
 
 
-3. Série Partie 3/3 : C2 Protocol & Detection Boundaries
-📝 Not yet published | 🌐 English version planned
+3. Série Partie 3/3 : [C2 Protocol & Detection Boundaries](https://www.linkedin.com/pulse/s%C3%A9rie-partie-33-built-evade-larchitecture-dun-implant-massetti-o79ge)
+🇫🇷 French | 🌐 English translation in progress
 
 
 
